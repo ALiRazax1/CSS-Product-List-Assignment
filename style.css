@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'m-plus-2' ;
+  src: url(./assets/fonts/static/MPLUS2-Light.ttf);
+}
+@font-face {
+  font-family:'m-plus-2-bold' ;
+  src: url(./assets/fonts/static/MPLUS2-Medium.ttf);
+}
+
+* {font-family:'m-plus-2';}
 .product-container {
   display: flex;
   height: max-content;
@@ -11,18 +21,18 @@
 }
 .product-image img {
   padding-top: 15px;
-  /* padding-left: 10px; */
 }
 .product-description {
   width: 70%;
   padding-left: 20px;
+  height: max-content;
 }
 .rating-star {
   padding-top: 8px;
   width: max-content;
   display: inline-block;
 }
-.product-description h2 {
+.product-description h3 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -48,7 +58,7 @@
   background-color: #ffd814;
   cursor: pointer;
 }
-.price-tag {
+.price-tag {font-family:'m-plus-2-bold' ;
   font-size: xx-large;
   font-weight: 500;
 }
